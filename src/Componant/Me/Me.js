@@ -73,14 +73,6 @@ function Me() {
         setsubmitdata(checkdata)
     }
 
-    const notcheckdatahandler = () => {
-        setalldata(submitdata)
-        let notcheckdata = submitdata.filter((v) => {
-            return v.checked == false
-        })
-        setsubmitdata(notcheckdata)
-    }
-
 
     return (
         <>
